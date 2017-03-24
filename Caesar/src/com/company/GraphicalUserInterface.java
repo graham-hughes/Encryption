@@ -3,6 +3,8 @@ package com.company;
 /**
  * Created by grahamhughes on 3/24/17.
  * Referenced blog.udemy.com/java-gui-tutorial/ for GUI help
+ * <p>
+ * Basic GUI for Caesar encryption
  */
 
 import javax.swing.*;
@@ -12,8 +14,9 @@ import java.awt.*;
 public class GraphicalUserInterface extends JFrame {
     private static final int HEIGHT = 200;
     private static final int WIDTH = 700;
-    private JLabel shift, output;
-    private JTextField input, shiftBy;
+    private JLabel shift;
+    private JTextField shiftBy;
+    private JTextArea input, output;
     private JButton encrypt, decrypt;
     private EncryptButtonHandler encryptHandler;
     private DecryptButtonHandler decryptHandler;
@@ -22,15 +25,21 @@ public class GraphicalUserInterface extends JFrame {
     private Caesar caesar;
 
     public GraphicalUserInterface() {
-        shift = new JLabel("Shifts by: ");
-        output = new JLabel("Output");
-        input = new JTextField("Input (ALL CAPS)");
+        shift = new JLabel("Shifts by: 0");
+        output = new JTextArea("Output");
+        input = new JTextArea("Input (ALL CAPS)");
         shiftBy = new JTextField("Shift by integer");
         encrypt = new JButton("Encrypt");
         decrypt = new JButton("Decrypt");
         encryptHandler = new EncryptButtonHandler();
         decryptHandler = new DecryptButtonHandler();
         shiftByHandler = new ShiftByHandler();
+
+        input.setLineWrap(true);
+        output.setLineWrap(true);
+        input.setWrapStyleWord(true);
+        output.setWrapStyleWord(true);
+        output.setEditable(false);
 
         encrypt.addActionListener(encryptHandler);
         decrypt.addActionListener(decryptHandler);
@@ -50,28 +59,42 @@ public class GraphicalUserInterface extends JFrame {
         setSize(WIDTH, HEIGHT);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        caesar = new Caesar(0); // Defaults to zero shift
     }
 
     private class EncryptButtonHandler implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            output.setText(caesar.encrypt(input.getText()));
+            try {
+                output.setText("Encrypted Message: " + caesar.encrypt(input.getText()));
+            } catch (IllegalArgumentException exception) {
+                input.setText(exception.getMessage());
+            }
         }
     }
 
     private class DecryptButtonHandler implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            output.setText(caesar.decrypt(input.getText()));
+            try {
+                output.setText("Decrypted Message: " + caesar.decrypt(input.getText()));
+            } catch (IllegalArgumentException exception) {
+                input.setText(exception.getMessage());
+            }
         }
     }
 
     private class ShiftByHandler implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            int shiftFactor = Integer.parseInt(shiftBy.getText());
-            shift.setText("Shifts by: " + shiftFactor);
-            caesar = new Caesar(shiftFactor);
+            try {
+                int shiftFactor = Integer.parseInt(shiftBy.getText());
+                shift.setText("Shifts by: " + shiftFactor);
+                caesar = new Caesar(shiftFactor);
+            } catch (NumberFormatException exception) {
+                shift.setText("Shifts by: " + "Error please input integer value");
+            }
         }
     }
 }

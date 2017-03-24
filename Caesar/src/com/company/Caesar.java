@@ -16,15 +16,13 @@ public class Caesar {
         shift = shiftBy;
     }
 
-    /**
-     * Returns the encrypted input
-     */
+    /* Returns the encrypted input */
     public String encrypt(String input) {
         String output = "";
         for (char c : input.toCharArray()) {
-            if (c != ' ' && !Character.isUpperCase(c)) {
+            if (c != ' ' && c != '\n' && !Character.isUpperCase(c)) {
                 throw new IllegalArgumentException("Character '" + c + "' is not capitalized");
-            } else if (c == ' ') {
+            } else if (c == ' ' || c == '\n') {
                 output += c;
             } else {
                 output += (char) (Math.floorMod((c + shift - 'A'), 26) + 'A');
@@ -33,15 +31,13 @@ public class Caesar {
         return output;
     }
 
-    /**
-     * Given an encrypted input, returns the decrypted string
-     */
+    /* Given an encrypted input, returns the decrypted string */
     public String decrypt(String input) {
         String output = "";
         for (char c : input.toCharArray()) {
-            if (c != ' ' && !Character.isUpperCase(c)) {
+            if (c != ' ' && c != '\n' && !Character.isUpperCase(c)) {
                 throw new IllegalArgumentException("Character '" + c + "' is not capitalized");
-            } else if (c == ' ') {
+            } else if (c == ' ' || c == '\n') {
                 output += c;
             } else {
                 output += (char) (Math.floorMod((c - shift - 'A'), 26) + 'A');

@@ -19,41 +19,36 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="60">
+              <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
               <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphicalUserInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GraphicalUserInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/GraphicalUserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1772#1773#0" expanded="true" />
-                <element signature="e#1843#1844#0" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-                <element signature="e#2059#2060#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Caesar.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Caesar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Caesar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+            <state relative-caret-position="585">
+              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding>
                 <element signature="e#497#498#0" expanded="true" />
                 <element signature="e#528#529#0" expanded="true" />
-                <marker date="1490384103000" expanded="true" signature="22:411" ph="/**...*/" />
               </folding>
             </state>
           </provider>
@@ -62,8 +57,8 @@
       <file leaf-file-name="TestCaesarEncrypt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/TestCaesarEncrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="68" />
+            <state relative-caret-position="180">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,9 +85,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/CaesarEncrypt.java" />
         <option value="$PROJECT_DIR$/src/com/company/TestCaesarEncrypt.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Caesar.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/GraphicalUserInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Caesar.java" />
       </list>
     </option>
   </component>
@@ -506,19 +501,19 @@
     <history-entry file="TestCaesarEncrypt_testCaesarLarge - 2017.03.24 at 12h 33m 30s.xml">
       <configuration name="TestCaesarEncrypt.testCaesarLarge" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCaesarEncrypt_testCaesarOne - 2017.03.24 at 12h 20m 47s.xml">
-      <configuration name="TestCaesarEncrypt.testCaesarOne" configurationId="JUnit" />
+    <history-entry file="TestCaesarEncrypt_testCaesarLarge - 2017.03.24 at 14h 23m 15s.xml">
+      <configuration name="TestCaesarEncrypt.testCaesarLarge" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCaesarEncrypt_testCaesarOne - 2017.03.24 at 12h 21m 43s.xml">
-      <configuration name="TestCaesarEncrypt.testCaesarOne" configurationId="JUnit" />
+    <history-entry file="TestCaesarEncrypt_testCaesarLarge - 2017.03.24 at 14h 23m 42s.xml">
+      <configuration name="TestCaesarEncrypt.testCaesarLarge" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCaesarEncrypt_testCaesarOne - 2017.03.24 at 12h 22m 22s.xml">
-      <configuration name="TestCaesarEncrypt.testCaesarOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCaesarEncrypt_testCaesarOne - 2017.03.24 at 12h 23m 24s.xml">
-      <configuration name="TestCaesarEncrypt.testCaesarOne" configurationId="JUnit" />
+    <history-entry file="TestCaesarEncrypt_testCaesarLarge - 2017.03.24 at 14h 25m 34s.xml">
+      <configuration name="TestCaesarEncrypt.testCaesarLarge" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestCaesarEncrypt_testCaesarOne - 2017.03.24 at 12h 24m 32s.xml">
+      <configuration name="TestCaesarEncrypt.testCaesarOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCaesarEncrypt_testCaesarOne - 2017.03.24 at 14h 23m 05s.xml">
       <configuration name="TestCaesarEncrypt.testCaesarOne" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -571,18 +566,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Caesar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
-          <folding>
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <marker date="1490384103000" expanded="true" signature="22:411" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../javalib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -591,10 +574,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TestCaesarEncrypt.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="68" />
+        <state relative-caret-position="148">
+          <caret line="579" column="0" lean-forward="false" selection-start-line="579" selection-start-column="0" selection-end-line="579" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GraphicalUserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -603,25 +594,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
           <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GraphicalUserInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/TestCaesarEncrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1772#1773#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2059#2060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Caesar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
           </folding>
         </state>
       </provider>
