@@ -13,18 +13,18 @@ public class TestCaesarEncrypt {
     public void testCaesarOne() {
         Caesar ceasar = new Caesar(1);
 
-        assertEquals("Shit by one failed.", "bcdef", ceasar.encrypt("abcde"));
-        assertEquals("Shit by one failed.", "abcde", ceasar.decrypt("bcdef"));
+        assertEquals("Encrypt by one failed.", "BCDEF", ceasar.encrypt("ABCDE"));
+        assertEquals("Decrypt by one failed.", "ABCDE", ceasar.decrypt("BCDEF"));
     }
 
     @Test
     public void testCaesarLarge() {
         Caesar ceasar = new Caesar(800);
 
-        assertEquals("Shit by one failed.", "ͨ΅ΌΌΏ͌̀\u038DῚΎ\u0381\u038D΅̀ΉΓ̀ͧΒ\u0381Έ\u0381\u038D",
-                ceasar.encrypt("Hello, my name is Graham"));
-        assertEquals("Shit by one failed.", "Hello, my name is Graham",
-                ceasar.decrypt("ͨ΅ΌΌΏ͌̀\u038DῚΎ\u0381\u038D΅̀ΉΓ̀ͧΒ\u0381Έ\u0381\u038D"));
+        assertEquals("Shit by 800 failed.", "BYFFI GS HUGY CM ALUBUG",
+                ceasar.encrypt("HELLO MY NAME IS GRAHAM"));
+        assertEquals("Shit by 800 failed.", "HELLO MY NAME IS GRAHAM",
+                ceasar.decrypt("BYFFI GS HUGY CM ALUBUG"));
     }
 
 }
