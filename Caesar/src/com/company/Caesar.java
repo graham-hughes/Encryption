@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by grahamhughes on 3/23/17.
  * Referenced en.wikipedia.org/wiki/Caesar_cipher for Cipher details
- * <p>
+ * 
  * Caesar encryption shifts each letter in the input by a given number, then mods by 26
  * Note: spaces are not shifted, and all upper case inputs are required as per Wikipedia details
  * Decrypting only requires shifting each characters backwards by the same number
