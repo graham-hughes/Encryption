@@ -1,4 +1,4 @@
-package com.company;
+package com.grahamhughes.caesar;
 
 import java.io.BufferedReader;
 
@@ -24,7 +24,7 @@ public class CaesarCracker {
     private int bestGuessOffset;
 
     /* Cracks by checking which version of the decrypted string has the most words in the dictionairy */
-    public CaesarCracker(String encrypted) throws FileNotFoundException {
+    public CaesarCracker(String encrypted) throws FileNotFoundException{
         english = new HashSet<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader("dictionairy.txt"))) {
@@ -75,13 +75,13 @@ public class CaesarCracker {
     }
 
     /* Compares each word in the input string against the 1000 most common english words
-    *  Returns the number of recognized words */
+    *  Returns the number of recognized words in the input string*/
     private int numEnglishWords(String str) {
         int numWords = 0;
         String[] strings = str.split(" ");
         for (String word : strings) {
             if (english.contains(word)) {
-                numWords++;
+                numWords ++;
             }
         }
         return numWords;

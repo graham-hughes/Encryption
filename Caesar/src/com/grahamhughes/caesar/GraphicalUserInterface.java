@@ -1,4 +1,4 @@
-package com.company;
+package com.grahamhughes.caesar;
 
 /**
  * Created by grahamhughes on 3/24/17.

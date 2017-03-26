@@ -1,4 +1,4 @@
-package com.company;
+package com.grahamhughes.caesar;
 
 /**
  * Created by grahamhughes on 3/24/17.
@@ -9,6 +9,12 @@ import java.io.FileNotFoundException;
 import static org.junit.Assert.*;
 
 public class TestCaesarCracker {
+    @Test
+    public void hughesTest() throws FileNotFoundException {
+        String str = "LBH QN ZNA TENUNZ";
+        CaesarCracker cracker = new CaesarCracker(str);
+        System.out.println(cracker.bestGuess());
+    }
     @Test
     public void testCracker() throws FileNotFoundException {
         CaesarCracker cracker = new CaesarCracker("YVCCF DP ERDV ZJ DRIB Z CZBV GZQQR");
