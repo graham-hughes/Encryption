@@ -12,11 +12,11 @@ public class TestDataEncryptionStandard {
      * And then decoding the string and comparing it against the original
      */
     @Test
-    public void testStringToBinary() {
+    public void testStringToBlocks() {
         String input = "Hello, my name is Graham Hughes";
         DataEncryptionStandard des = new DataEncryptionStandard(0);
         String output = "";
-        for (Block b : des.stringToBinary(input)) {
+        for (Block b : des.stringToBlocks(input)) {
             output += new String(b.getBlock().toByteArray());
         }
         assertEquals("Failed encoding to decoding", input, output);

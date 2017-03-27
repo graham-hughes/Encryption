@@ -16,8 +16,9 @@ public class DataEncryptionStandard {
     }
 
 
-    /* Turns an input string into an array of blocks */
-    ArrayList<Block> stringToBinary(String input) {
+    /* Turns an input string into an array of blocks
+    *  Package private for testing purposes */
+    ArrayList<Block> stringToBlocks(String input) {
         ArrayList<Block> output = new ArrayList<>();
 
         byte[] inBytes = input.getBytes(StandardCharsets.UTF_8);
