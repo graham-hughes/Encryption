@@ -9,9 +9,6 @@ import java.util.BitSet;
 public class Block {
     private BitSet block;
     public Block(BitSet b) {
-        if (b.size() != 64) {
-            throw new IllegalArgumentException("Blocks are 64 bits each");
-        }
         block = b;
     }
     public BitSet getBlock() {
